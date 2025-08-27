@@ -47,6 +47,8 @@ mcp install mcp-multilspy
 - Go (gopls)
 - Dart (Dart Language Server)
 - Ruby (Solargraph)
+- Kotlin
+- C++ (clangd)
 
 ## Example
 
