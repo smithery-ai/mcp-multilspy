@@ -9,7 +9,7 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "mcp[cli]>=1.4.1",
-    "multilspy>=0.0.14",
+    "multilspy",
 ]
 
 
@@ -30,6 +30,9 @@ dev-dependencies = [
     "ruff-lsp>=0.0.60",
     "ruff>=0.9.2",
 ]
+
+[tool.uv.sources]
+multilspy = { git = "https://github.com/microsoft/multilspy", rev = "ee0f6dcd1c0f4c5471d8078580343203b0c73fa7" }
 
 [tool.pytest.ini_options]
 addopts = "-v"
